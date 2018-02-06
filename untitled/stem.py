@@ -9,7 +9,7 @@ import re
 ss = SnowballStemmer("english")
 ps = PorterStemmer()
 ws = WordNetLemmatizer()
-example_words = ["ragavan","running","facilitator","directors","having","moderator","buys"]
+example_words = ["jealous","jealousy","facilitator","directors","having","moderator","buys"]
 lemwords=[]
 print(pos_tag(example_words))
 reg ='NN.*'
